@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost language="C#" Factory="IdpAds.AdsSecurityTokenServiceFactory" Service="IdpAds.CustomSecurityTokenServiceConfiguration" %>

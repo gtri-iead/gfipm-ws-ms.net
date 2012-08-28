@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WscEntityAttributesPolicies>
+  <policy action="urn:examples.com:techniques:iepd:commercialVehicleCollision:ws:2.0:CommercialVehicleCollisionPortType:getDocumentRequest">
+    <and>
+      <claim claimType="gfipm:2.0:entity:TechnicalRole" claimValue="WSC"/>
+      <or>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="US"/>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="VQ"/>
+      </or>
+    </and>
+  </policy>
+  <policy action="urn:examples.com:techniques:iepd:commercialVehicleCollision:ws:2.0:CommercialVehicleCollisionPortType:uploadPhotoRequest">
+    <and>
+      <claim claimType="gfipm:2.0:entity:TechnicalRole" claimValue="WSC"/>
+      <or>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="US"/>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="VQ"/>
+      </or>
+    </and>
+  </policy>
+  <policy action="urn:examples.com:techniques:iepd:commercialVehicleCollision:ws:2.0:CommercialVehicleCollisionPortType:downloadDataRequest">
+    <and>
+      <claim claimType="gfipm:2.0:entity:TechnicalRole" claimValue="WSC"/>
+      <or>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="US"/>
+        <claim claimType="gfipm:2.0:entity:OwnerAgencyCountryCode" claimValue="VQ"/>
+      </or>
+    </and>
+  </policy>
+</WscEntityAttributesPolicies>
+

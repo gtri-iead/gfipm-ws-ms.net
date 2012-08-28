@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographicTrustFabricMgr", "GfipmTrustFabricCertificateMgrGui\CryptographicTrustFabricMgr.csproj", "{4B4A9E48-9016-40E5-B329-A2986824ABF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfipmCryptoTrustFabricModel", "GfipmCryptoTrustFabricModel\GfipmCryptoTrustFabricModel.csproj", "{BBA0529D-352C-400F-BD47-E34D55BEBFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfipmCryptoTrustFabric", "GfipmCryptoTrustFabric\GfipmCryptoTrustFabric.csproj", "{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4B4A9E48-9016-40E5-B329-A2986824ABF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BBA0529D-352C-400F-BD47-E34D55BEBFF6}.Release|x86.ActiveCfg = Release|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AAFBF854-D514-4273-A1A8-FC0B97B2CACB}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

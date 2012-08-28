@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AttributesStore>
+  <User userName="bob">
+    <Attribute URI="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Value="bob" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format" claimProperty="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"/>
+    <Attribute URI="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" Value="bob" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format" claimProperty="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"/>
+    <Attribute URI="gfipm:2.0:user:SurName" Value="Bob" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:GivenName" Value="Bob" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:EmailAddressText" Value="ms01@gfipm.net" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:TelephoneNumber" Value="404-555-9876" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:EmployerName" Value="Hawaii-5-0" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:FederationId" Value="GFIPM:IDP:ExampleIDP:USER:ms01" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SwornLawEnforcementOfficerIndicator" Value="true" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:IdentityProviderId" Value="GFIPM:IDP:HA50IDP" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:CounterTerrorismDataSelfSearchHomePrivilegeIndicator" Value="true" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:CriminalIntelligenceDataSelfSearchHomePrivilegeIndicator" Value="false" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:CitizenshipCode" Value="US" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SecurityClearanceLevelCode" Value="Secret" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SecurityClearanceExpirationDate" Value="2012-05-30" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+  </User>
+  <User userName="alice">
+    <Attribute URI="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Value="alice" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format" claimProperty="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"/>
+    <Attribute URI="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" Value="alice" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format" claimProperty="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"/>
+    <Attribute URI="gfipm:2.0:user:CitizenshipCode" Value="US" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:EmployerName" Value="Dundler Mifflin" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SwornLawEnforcementOfficerIndicator" Value="true" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:GivenName" Value="Alice" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SecurityClearanceExpirationDate" Value="05/30/2012" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="NameID" Value="curewscm2,L=Rome,ST=GA,C=US,1.2.840.113549.1.9.1=#160e637572656d32407773632e6e6574" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format" claimProperty="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"/>
+    <Attribute URI="gfipm:2.0:user:SecurityClearanceLevelCode" Value="Secret" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    <Attribute URI="gfipm:2.0:user:SurName" Value="Alice" 
+               claimPropertyURI="http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename" claimProperty="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+  </User>
+</AttributesStore>
